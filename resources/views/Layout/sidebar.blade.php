@@ -36,10 +36,10 @@
                with font-awesome or any other icon font library -->
 
           <li class="nav-item">
-            <a href="{{--route('dashboard.users.index')--}}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{route('dashboard.users.index')}}" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
               <p>
-                Widgets
+                Users
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
